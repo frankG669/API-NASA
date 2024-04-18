@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes espaciales</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <section class="logos">
+            <img class="nasa-logo" src="./images/nasa-logo.svg" alt="Logo NASA">
+            <img class="nasa-letras" src="./images/nasa-letras.svg" alt="">
+        </section>
+    </nav>
+
+    <main>
+        <section class="container">
+            <section class="datos-entrada">
+                <input id="fechaInput" class="date" type="date">
+                <button class="btn-search" onclick="obtenerImagenNASA()">Ver Imagen</button>
+            </section>
+            <section class="datos-imagen">
+                <div id="imagenContainer"></div>
+                <div id="tituloContainer"></div>
+                <div id="fechaContainer"></div>
+                <div id="descripcionContainer"></div>
+            </section>
+        </section>
+    </main>
+
+
+
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
